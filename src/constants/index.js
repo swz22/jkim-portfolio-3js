@@ -1,4 +1,4 @@
-import { frontend, backend, creator, web } from "../assets";
+import { frontend, backend, creator, web, javascript } from "../assets";
 
 export const navLinks = [
   {
@@ -34,4 +34,46 @@ const services = [
   },
 ];
 
-export { services };
+const experiences = [
+  {
+    title: "Title",
+    company_name: "Company Name",
+    icon: javascript,
+    iconBg: "#383E56",
+    date: "March 2020 - April 2021",
+    points: [
+      "Stuff",
+      "Stuff",
+      "Stuff",
+      "Stuff",
+    ],
+  },
+  {
+    title: "Title",
+    company_name: "Company Name",
+    icon: javascript,
+    iconBg: "#383E56",
+    date: "March 2020 - April 2021",
+    points: [
+      "Stuff",
+      "Stuff",
+      "Stuff",
+      "Stuff", 
+    ],
+  },
+  {
+    title: "Title",
+    company_name: "Company Name",
+    icon: javascript,
+    iconBg: "#383E56",
+    date: "March 2020 - April 2021",
+    points: [
+      "Stuff",
+      "Stuff",
+      "Stuff",
+      "Stuff",  
+    ],
+  },
+];
+
+export { services, experiences };

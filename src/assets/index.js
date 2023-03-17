@@ -6,6 +6,8 @@ import creator from "./creator.png";
 import frontend from "./frontend.png";
 import web from "./web.png";
 
+import javascript from "./company/javascript.png"
+
 export {
   logo,
   menu,
@@ -14,4 +16,5 @@ export {
   creator,
   frontend,
   web,
+  javascript,
 };
