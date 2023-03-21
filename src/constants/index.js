@@ -14,7 +14,8 @@ import {
   mongodb,
   git,
   docker,
-  threejs,                                                                                                                                                                                                                                                                                                                                                                                                                  
+  threejs,
+  hackreactor,                                                                                                                                                                                                                                                                                                                                                                                                                  
  } from "../assets";
 
 export const navLinks = [
@@ -55,7 +56,7 @@ const experiences = [
   {
     title: "Title",
     company_name: "Company Name",
-    icon: javascript,
+    icon: hackreactor,
     iconBg: "#383E56",
     date: "March 2020 - April 2021",
     points: [
@@ -68,7 +69,7 @@ const experiences = [
   {
     title: "Title",
     company_name: "Company Name",
-    icon: javascript,
+    icon: hackreactor,
     iconBg: "#383E56",
     date: "March 2020 - April 2021",
     points: [
@@ -81,7 +82,7 @@ const experiences = [
   {
     title: "Title",
     company_name: "Company Name",
-    icon: javascript,
+    icon: hackreactor,
     iconBg: "#383E56",
     date: "March 2020 - April 2021",
     points: [
