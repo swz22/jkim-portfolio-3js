@@ -15,7 +15,8 @@ import {
   git,
   docker,
   threejs,
-  hackreactor,                                                                                                                                                                                                                                                                                                                                                                                                                  
+  hackreactor,
+  project,                                                                                                                                                                                                                                                                                                                                                                                                                  
  } from "../assets";
 
 export const navLinks = [
@@ -145,4 +146,70 @@ const technologies = [
   },
 ];
 
-export { services, experiences, technologies };
+const projects = [
+  {
+    name: "Placeholder",
+    description:
+      "Write project description here.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: project,
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "Placeholder",
+    description:
+      "Write project description here.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: project,
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "Placeholder",
+    description:
+      "Write project description here.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: project,
+    source_code_link: "https://github.com/",
+  },
+]
+
+export { services, experiences, technologies, projects };

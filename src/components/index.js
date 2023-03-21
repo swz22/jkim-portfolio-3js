@@ -4,13 +4,15 @@ import Experience from './Experience';
 import Hero from './Hero';
 import Navbar from './Navbar';
 import Tech from './Tech';
+import Works from './Works';
 
 export {
   About,
   Experience,
   Hero,
   Navbar,
-  ComputersCanvas,
   Tech,
+  Works,
   BallCanvas,
+  ComputersCanvas,
 }

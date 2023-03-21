@@ -4,6 +4,8 @@ import close from "./close.svg";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import frontend from "./frontend.png";
+import github from "./github.png";
+import project from "./project.jpg";
 import web from "./web.png";
 
 import hackreactor from "./company/hackreactor.png"
@@ -21,6 +23,8 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
+
+
 export {
   logo,
   menu,
@@ -33,6 +37,7 @@ export {
   css,
   docker,
   git,
+  github,
   html,
   javascript,
   mongodb,
@@ -42,4 +47,5 @@ export {
   tailwind,
   typescript,
   threejs,
+  project,
 };
