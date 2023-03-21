@@ -19,14 +19,18 @@ import {
   project,                                                                                                                                                                                                                                                                                                                                                                                                                  
  } from "../assets";
 
-export const navLinks = [
+ export const navLinks = [
   {
     id: "about",
     title: "About",
   },
   {
     id: "work",
-    title: "Work",
+    title: "Experience",
+  },
+  {
+    id: "projects",
+    title: "Projects",
   },
   {
     id: "contact",

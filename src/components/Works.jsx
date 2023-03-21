@@ -76,10 +76,10 @@ const Works = () => {
           className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
         >
           These projects showcase my skills through real-world examples of my
-          work and reflect my ability to solve complex problems, work with
-          different technologies, and manage projects effectively. Click on a
-          project card below to view a live demo and click on a github icon to view
-          my code repository for that project.
+          work and reflect my ability to work with different technologies, solve
+          complex problems, and manage projects effectively. Click on a project
+          card below to view a live demo and click on a github icon to view my
+          code repository for that project.
         </motion.p>
       </div>
 
