@@ -1,9 +1,9 @@
-import { 
-  frontend, 
-  backend, 
-  creator, 
-  web, 
-  javascript, 
+import {
+  frontend,
+  backend,
+  creator,
+  web,
+  javascript,
   typescript,
   html,
   css,
@@ -16,10 +16,14 @@ import {
   docker,
   threejs,
   hackreactor,
-  project,                                                                                                                                                                                                                                                                                                                                                                                                                  
- } from "../assets";
+  bearbnb,
+  chatbuddy,
+  clonazon,
+  crescendo,
+  discord,
+} from "../assets";
 
- export const navLinks = [
+export const navLinks = [
   {
     id: "about",
     title: "About",
@@ -64,12 +68,7 @@ const experiences = [
     icon: hackreactor,
     iconBg: "#383E56",
     date: "March 2020 - April 2021",
-    points: [
-      "Stuff",
-      "Stuff",
-      "Stuff",
-      "Stuff",
-    ],
+    points: ["Stuff", "Stuff", "Stuff", "Stuff"],
   },
   {
     title: "Title",
@@ -77,12 +76,7 @@ const experiences = [
     icon: hackreactor,
     iconBg: "#383E56",
     date: "March 2020 - April 2021",
-    points: [
-      "Stuff",
-      "Stuff",
-      "Stuff",
-      "Stuff", 
-    ],
+    points: ["Stuff", "Stuff", "Stuff", "Stuff"],
   },
   {
     title: "Title",
@@ -90,12 +84,7 @@ const experiences = [
     icon: hackreactor,
     iconBg: "#383E56",
     date: "March 2020 - April 2021",
-    points: [
-      "Stuff",
-      "Stuff",
-      "Stuff",
-      "Stuff",  
-    ],
+    points: ["Stuff", "Stuff", "Stuff", "Stuff"],
   },
 ];
 
@@ -152,16 +141,15 @@ const technologies = [
 
 const projects = [
   {
-    name: "Placeholder",
-    description:
-      "Write project description here.",
+    name: "Crescendo",
+    description: "A music discovery and streaming app like Spotify but better!",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "redux",
         color: "green-text-gradient",
       },
       {
@@ -169,41 +157,45 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: project,
-    source_code_link: "https://github.com/",
+    image: crescendo,
+    demo_link: "https://crescendo-music.netlify.app/",
+    source_code_link: "https://github.com/swz22/crescendo/",
   },
   {
-    name: "Placeholder",
-    description:
-      "Write project description here.",
+    name: "Clonazon",
+    description: "An Amazon clone with authentication and stripe payment processing.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "redux",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "nextauth",
         color: "pink-text-gradient",
       },
+      {
+        name: "stripe",
+        color: "orange-text-gradient",
+      },
     ],
-    image: project,
-    source_code_link: "https://github.com/",
+    image: clonazon,
+    demo_link: "https://bearbnb.vercel.app/",
+    source_code_link: "https://github.com/swz22/clonazon/",
   },
   {
-    name: "Placeholder",
-    description:
-      "Write project description here.",
+    name: "Bearbnb",
+    description: "An Airbnb clone with a calendar and an interactive map.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "mapbox",
         color: "green-text-gradient",
       },
       {
@@ -211,9 +203,56 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: project,
-    source_code_link: "https://github.com/",
+    image: bearbnb,
+    demo_link: "https://bearbnb.vercel.app/",
+    source_code_link: "https://github.com/swz22/bearbnb/",
   },
-]
+  {
+    name: "Chatbuddy AI",
+    description: "An AI chatbot powered by OpenAI's GPT-3.",
+    tags: [
+      {
+        name: "javascript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "gpt-3",
+        color: "green-text-gradient",
+      },
+      {
+        name: "node.js",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "express",
+        color: "orange-text-gradient",
+      },
+    ],
+    image: chatbuddy,
+    demo_link: "https://chatbuddy-sand.vercel.app/",
+    source_code_link: "https://github.com/swz22/chat-buddy-ai/",
+  },
+  {
+    name: "Discord Clone",
+    description: "A Discord clone with channel creation and chat functionality.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "redux",
+        color: "green-text-gradient",
+      },
+      {
+        name: "firebase",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: discord,
+    demo_link: "https://chatdsc-520c3.web.app/",
+    source_code_link: "https://github.com/swz22/discord_clone/",
+  },
+];
 
 export { services, experiences, technologies, projects };

@@ -6,14 +6,7 @@ import { SectionWrapper } from "../hoc";
 import { projects } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
 
-const ProjectCard = ({
-  index,
-  name,
-  description,
-  tags,
-  image,
-  source_code_link,
-}) => {
+const ProjectCard = ({ index, name, description, tags, image, demo_link, source_code_link }) => {
   return (
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
       <Tilt
@@ -25,12 +18,11 @@ const ProjectCard = ({
         className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full"
       >
         <div className="relative w-full h-[230px]">
-          <img
-            src={image}
-            alt={name}
-            className="w-full h-full object-cover rounded-2xl"
-          />
-          <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
+          <img src={image} alt={name} className="w-full h-full object-cover rounded-2xl" />
+          <div
+            onClick={() => window.open(demo_link, "_blank")}
+            className="absolute inset-0 flex justify-end m-3 card-img_hover cursor-pointer"
+          >
             <div
               onClick={() => window.open(source_code_link, "_blank")}
               className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
@@ -46,7 +38,7 @@ const ProjectCard = ({
         </div>
 
         <div className="mt-5">
-          <h3 cassName="text-white font-bold text-[24px]">{name}</h3>
+          <h3 className="text-white font-bold text-[24px]">{name}</h3>
           <p className="mt-2 text-secondary text-[14px]">{description}</p>
         </div>
 
@@ -75,11 +67,10 @@ const Works = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
         >
-          These projects showcase my skills through real-world examples of my
-          work and reflect my ability to work with different technologies, solve
-          complex problems, and manage projects effectively. Click on a project
-          card below to view a live demo and click on a github icon to view my
-          code repository for that project.
+          These projects showcase my skills through real-world examples of my work and reflect my
+          ability to work with different technologies, solve complex problems, and manage projects
+          effectively. Click on a project card below to view a live demo and click on a github icon
+          to view my code repository for that project.
         </motion.p>
       </div>
 
