@@ -141,28 +141,7 @@ const technologies = [
 
 const projects = [
   {
-    name: "Crescendo",
-    description: "A music discovery and streaming app like Spotify but better!",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "redux",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: crescendo,
-    demo_link: "https://crescendo-music.netlify.app/",
-    source_code_link: "https://github.com/swz22/crescendo/",
-  },
-  {
-    name: "Clonazon",
+    name: "Amazon Clone",
     description: "An Amazon clone with authentication and stripe payment processing.",
     tags: [
       {
@@ -183,8 +162,8 @@ const projects = [
       },
     ],
     image: clonazon,
-    demo_link: "https://bearbnb.vercel.app/",
-    source_code_link: "https://github.com/swz22/clonazon/",
+    demo_link: "https://zonclone.cloud/",
+    source_code_link: "https://github.com/swz22/Amazon-Clone/",
   },
   {
     name: "Bearbnb",
@@ -206,6 +185,27 @@ const projects = [
     image: bearbnb,
     demo_link: "https://bearbnb.vercel.app/",
     source_code_link: "https://github.com/swz22/bearbnb/",
+  },
+  {
+    name: "Crescendo",
+    description: "A music discovery and streaming app like Spotify but better!",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "redux",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: crescendo,
+    demo_link: "https://crescendo-music.netlify.app/",
+    source_code_link: "https://github.com/swz22/crescendo/",
   },
   {
     name: "Chatbuddy AI",

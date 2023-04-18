@@ -1,7 +1,4 @@
-import {
-  VerticalTimeline,
-  VerticalTimelineElement,
-} from "react-vertical-timeline-component";
+import { VerticalTimeline, VerticalTimelineElement } from "react-vertical-timeline-component";
 import { motion } from "framer-motion";
 import { styles } from "../styles";
 import { experiences } from "../constants";
@@ -11,7 +8,7 @@ import "react-vertical-timeline-component/style.min.css";
 
 const ExperienceCard = ({ experience }) => (
   <VerticalTimelineElement
-    contentStyle={{ background: "#1d1836", color: "#fff" }}
+    contentStyle={{ background: "#453d8a", color: "#fff" }}
     contentArrowStyle={{ borderRight: "7px solid  #232631" }}
     date={experience.date}
     iconStyle={{ background: experience.iconBg }}
@@ -28,10 +25,7 @@ const ExperienceCard = ({ experience }) => (
   >
     <div>
       <h3 className="text-white text-[24px] font-bold">{experience.title}</h3>
-      <p
-        className="text-secondary text-[16px] font-semibold"
-        style={{ margin: 0 }}
-      >
+      <p className="text-secondary text-[16px] font-semibold" style={{ margin: 0 }}>
         {experience.company_name}
       </p>
     </div>
