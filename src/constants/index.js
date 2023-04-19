@@ -15,7 +15,10 @@ import {
   git,
   docker,
   threejs,
+  bitwise,
+  freshk,
   hackreactor,
+  tuc,
   bearbnb,
   chatbuddy,
   clonazon,
@@ -63,28 +66,44 @@ const services = [
 
 const experiences = [
   {
-    title: "Title",
-    company_name: "Company Name",
-    icon: hackreactor,
+    title: "IT Director",
+    company_name: "Fresh K International Farmers Market",
+    icon: freshk,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
-    points: ["Stuff", "Stuff", "Stuff", "Stuff"],
+    date: "Nov 2022 - Present",
+    points: [
+      "Oversaw all IT operations including POS server management, network administration, and systems security.",
+    ],
   },
   {
-    title: "Title",
-    company_name: "Company Name",
-    icon: hackreactor,
+    title: "Full-Stack Web Dev Apprentice",
+    company_name: "AlphaWorks, Biwise Industries - Remote",
+    icon: bitwise,
     iconBg: "#383E56",
     date: "March 2020 - April 2021",
-    points: ["Stuff", "Stuff", "Stuff", "Stuff"],
+    points: [
+      "Learned new technologies on a weekly basis and gained development experience from contributing to projects on GitHub",
+    ],
   },
   {
-    title: "Title",
-    company_name: "Company Name",
+    title: "Sofware Engineering Immersive",
+    company_name: "Hack Reactor / Galvanize",
     icon: hackreactor,
     iconBg: "#383E56",
+    date: "Feb 2020",
+    points: [
+      "Dedicated 900 hours to learning full-stack SWE development. Learned systems design fundamentals, data structures and algorithms, ERD diagram basics, and web optimization.",
+    ],
+  },
+  {
+    title: "IT Project Manager",
+    company_name: "Textile Unlimited Corp",
+    icon: tuc,
+    iconBg: "#383E56",
     date: "March 2020 - April 2021",
-    points: ["Stuff", "Stuff", "Stuff", "Stuff"],
+    points: [
+      "Used scrum methodology to manage a team in developing a custom-built ERP application",
+    ],
   },
 ];
 

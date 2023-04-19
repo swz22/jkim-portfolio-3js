@@ -11,7 +11,10 @@ import chatbuddy from "./chatbuddy.png";
 import clonazon from "./clonazon.png";
 import crescendo from "./crescendo.png";
 import discord from "./discord.png";
+import bitwise from "./company/bitwise.png";
+import freshk from "./company/freshk.png";
 import hackreactor from "./company/hackreactor.png";
+import tuc from "./company/tuc.png";
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
 import git from "./tech/git.png";
@@ -33,7 +36,10 @@ export {
   creator,
   frontend,
   web,
+  bitwise,
+  freshk,
   hackreactor,
+  tuc,
   css,
   docker,
   git,
