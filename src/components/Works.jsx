@@ -44,7 +44,7 @@ const ProjectCard = ({ index, name, description, tags, image, demo_link, source_
 
         <div className="mt-4 flex flex-wrap gap-2">
           {tags.map((tag, index) => (
-            <p key={tag.name} className={`text-[14px] ${tag.color}`}>
+            <p key={tag.name} className={`text-[15px] font-semibold ${tag.color}`}>
               #{tag.name}
             </p>
           ))}
@@ -67,10 +67,9 @@ const Works = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className="mt-3 text-white text-[17px] max-w-3xl leading-[30px]"
         >
-          These projects showcase my skills through real-world examples of my work and reflect my
-          ability to work with different technologies, solve complex problems, and manage projects
-          effectively. Click on a project card below to view a live demo and click on a github icon
-          to view my code repository for that project.
+          These projects showcase my skills and reflect my ability to work with various
+          technologies, solve complex problems, and manage projects effectively. Click on a project
+          card below to view a live demo and click on a github icon to view its code repository.
         </motion.p>
       </div>
 

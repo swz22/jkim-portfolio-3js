@@ -15,12 +15,12 @@ import bitwise from "./company/bitwise.png";
 import freshk from "./company/freshk.png";
 import hackreactor from "./company/hackreactor.png";
 import tuc from "./company/tuc.png";
-import css from "./tech/css.png";
 import docker from "./tech/docker.png";
 import git from "./tech/git.png";
-import html from "./tech/html.png";
+import angular from "./tech/angular.png";
 import javascript from "./tech/javascript.png";
 import mongodb from "./tech/mongodb.png";
+import next from "./tech/next.png";
 import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
 import redux from "./tech/redux.png";
@@ -40,13 +40,13 @@ export {
   freshk,
   hackreactor,
   tuc,
-  css,
   docker,
   git,
   github,
-  html,
+  angular,
   javascript,
   mongodb,
+  next,
   nodejs,
   reactjs,
   redux,

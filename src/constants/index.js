@@ -5,8 +5,8 @@ import {
   web,
   javascript,
   typescript,
-  html,
-  css,
+  angular,
+  next,
   reactjs,
   redux,
   tailwind,
@@ -72,7 +72,7 @@ const experiences = [
     iconBg: "#383E56",
     date: "Nov 2022 - Present",
     points: [
-      "Oversaw all IT operations including POS server management, network administration, and systems security.",
+      "Oversaw all IT operations including POS management, network administration, systems security, website optimization, and SEO.",
     ],
   },
   {
@@ -80,9 +80,9 @@ const experiences = [
     company_name: "AlphaWorks, Biwise Industries - Remote",
     icon: bitwise,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "Mar 2021 - Nov 2022",
     points: [
-      "Learned new technologies on a weekly basis and gained development experience from contributing to projects on GitHub",
+      "Developed and maintained web applications using modern web technologies. Collaborated with cross-functional teams to ensure the applications were optimized for performance, scalability, and user experience.",
     ],
   },
   {
@@ -90,7 +90,7 @@ const experiences = [
     company_name: "Hack Reactor / Galvanize",
     icon: hackreactor,
     iconBg: "#383E56",
-    date: "Feb 2020",
+    date: "Mar 2020 - June 2020",
     points: [
       "Dedicated 900 hours to learning full-stack SWE development. Learned systems design fundamentals, data structures and algorithms, ERD diagram basics, and web optimization.",
     ],
@@ -100,7 +100,7 @@ const experiences = [
     company_name: "Textile Unlimited Corp",
     icon: tuc,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "March 2018 - April 2019",
     points: [
       "Used scrum methodology to manage a team in developing a custom-built ERP application",
     ],
@@ -108,14 +108,6 @@ const experiences = [
 ];
 
 const technologies = [
-  {
-    name: "HTML 5",
-    icon: html,
-  },
-  {
-    name: "CSS 3",
-    icon: css,
-  },
   {
     name: "JavaScript",
     icon: javascript,
@@ -133,8 +125,12 @@ const technologies = [
     icon: redux,
   },
   {
-    name: "Tailwind CSS",
-    icon: tailwind,
+    name: "Angular",
+    icon: angular,
+  },
+  {
+    name: "Next.js",
+    icon: next,
   },
   {
     name: "Node JS",
@@ -143,6 +139,10 @@ const technologies = [
   {
     name: "MongoDB",
     icon: mongodb,
+  },
+  {
+    name: "Tailwind CSS",
+    icon: tailwind,
   },
   {
     name: "Three JS",
@@ -164,7 +164,7 @@ const projects = [
     description: "An Amazon clone with authentication and stripe payment processing.",
     tags: [
       {
-        name: "react",
+        name: "next.js",
         color: "blue-text-gradient",
       },
       {
@@ -189,7 +189,7 @@ const projects = [
     description: "An Airbnb clone with a calendar and an interactive map.",
     tags: [
       {
-        name: "react",
+        name: "next.js",
         color: "blue-text-gradient",
       },
       {
@@ -228,7 +228,7 @@ const projects = [
   },
   {
     name: "Chatbuddy AI",
-    description: "An AI chatbot powered by OpenAI's GPT-3.",
+    description: "An AI chatbot powered by OpenAI's GPT-3 Text-Davinci-003.",
     tags: [
       {
         name: "javascript",
@@ -253,7 +253,7 @@ const projects = [
   },
   {
     name: "Discord Clone",
-    description: "A Discord clone with channel creation and chat functionality.",
+    description: "A Discord clone with chat functionality and channel creation.",
     tags: [
       {
         name: "react",
