@@ -6,7 +6,6 @@ import {
   javascript,
   typescript,
   angular,
-  next,
   reactjs,
   redux,
   tailwind,
@@ -77,7 +76,7 @@ const experiences = [
   },
   {
     title: "Full-Stack Web Dev Apprentice",
-    company_name: "AlphaWorks, Biwise Industries - Remote",
+    company_name: "AlphaWorks, Bitwise Industries - Remote",
     icon: bitwise,
     iconBg: "#383E56",
     date: "Mar 2021 - Nov 2022",
@@ -127,10 +126,6 @@ const technologies = [
   {
     name: "Angular",
     icon: angular,
-  },
-  {
-    name: "Next.js",
-    icon: next,
   },
   {
     name: "Node JS",
