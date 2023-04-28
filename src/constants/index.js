@@ -8,6 +8,8 @@ import {
   angular,
   reactjs,
   redux,
+  postgres,
+  mysql,
   tailwind,
   nodejs,
   mongodb,
@@ -120,7 +122,7 @@ const technologies = [
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
+    name: "Redux",
     icon: redux,
   },
   {
@@ -132,12 +134,16 @@ const technologies = [
     icon: nodejs,
   },
   {
-    name: "MongoDB",
-    icon: mongodb,
+    name: "MySQL",
+    icon: mysql,
   },
   {
-    name: "Tailwind CSS",
-    icon: tailwind,
+    name: "PostgreSQL",
+    icon: postgres,
+  },
+  {
+    name: "MongoDB",
+    icon: mongodb,
   },
   {
     name: "Three JS",

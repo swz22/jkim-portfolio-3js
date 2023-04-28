@@ -18,6 +18,8 @@ import tuc from "./company/tuc.png";
 import docker from "./tech/docker.png";
 import git from "./tech/git.png";
 import angular from "./tech/angular.png";
+import mysql from "./tech/mysql.png";
+import postgres from "./tech/postgres.png";
 import javascript from "./tech/javascript.png";
 import mongodb from "./tech/mongodb.png";
 import nodejs from "./tech/nodejs.png";
@@ -48,6 +50,8 @@ export {
   nodejs,
   reactjs,
   redux,
+  mysql,
+  postgres,
   tailwind,
   typescript,
   threejs,
