@@ -19,7 +19,6 @@ import {
   bitwise,
   freshk,
   hackreactor,
-  tuc,
   bearbnb,
   chatbuddy,
   clonazon,
@@ -67,7 +66,7 @@ const services = [
 
 const experiences = [
   {
-    title: "IT Director",
+    title: "IT Manager",
     company_name: "Fresh K International Farmers Market",
     icon: freshk,
     iconBg: "#383E56",
@@ -77,13 +76,16 @@ const experiences = [
     ],
   },
   {
-    title: "Full-Stack Web Dev Apprentice",
+    title: "Junior Full-Stack Developer",
     company_name: "AlphaWorks, Bitwise Industries - Remote",
     icon: bitwise,
     iconBg: "#383E56",
     date: "Mar 2021 - Nov 2022",
     points: [
-      "Developed and maintained web applications using modern web technologies. Collaborated with cross-functional teams to ensure the applications were optimized for performance, scalability, and user experience.",
+      "Developed and maintained web applications using modern web technologies.",
+      "Collaborated with cross-functional teams to ensure the applications were optimized for performance, scalability, and user experience.",
+      "Regularly gained proficiency in new technologies under the guidance of senior software engineers.",
+      "Co-taught JavaScript and React classes for aspiring software developer apprentices",
     ],
   },
   {
@@ -93,17 +95,8 @@ const experiences = [
     iconBg: "#383E56",
     date: "Mar 2020 - June 2020",
     points: [
-      "Dedicated 900 hours to learning full-stack SWE development. Learned systems design fundamentals, data structures and algorithms, ERD diagram basics, and web optimization.",
-    ],
-  },
-  {
-    title: "IT Project Manager",
-    company_name: "Textile Unlimited Corp",
-    icon: tuc,
-    iconBg: "#383E56",
-    date: "March 2018 - April 2019",
-    points: [
-      "Used scrum methodology to manage a team in developing a custom-built ERP application",
+      "Dedicated 900 hours to learning full-stack SWE development.",
+      "Learned systems design fundamentals, data structures and algorithms, ERD diagram basics, and web optimization.",
     ],
   },
 ];
